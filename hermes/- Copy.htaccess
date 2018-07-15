@@ -1,0 +1,33 @@
+DirectoryIndex index.html index.cgi index.php
+Options -Indexes
+
+
+ErrorDocument 401 /errors/index.php?errorcode=401
+ErrorDocument 402 /errors/index.php?errorcode=402
+ErrorDocument 403 /errors/index.php?errorcode=403
+ErrorDocument 404 /errors/index.php?errorcode=404
+ErrorDocument 405 /errors/index.php?errorcode=405
+ErrorDocument 406 /errors/index.php?errorcode=406
+ErrorDocument 407 /errors/index.php?errorcode=407
+ErrorDocument 408 /errors/index.php?errorcode=408
+ErrorDocument 409 /errors/index.php?errorcode=409
+ErrorDocument 410 /errors/index.php?errorcode=410
+ErrorDocument 411 /errors/index.php?errorcode=411
+ErrorDocument 412 /errors/index.php?errorcode=412
+ErrorDocument 413 /errors/index.php?errorcode=413
+ErrorDocument 414 /errors/index.php?errorcode=414
+ErrorDocument 415 /errors/index.php?errorcode=415
+ErrorDocument 416 /errors/index.php?errorcode=416
+ErrorDocument 417 /errors/index.php?errorcode=417
+ErrorDocument 500 /errors/index.php?errorcode=500
+ErrorDocument 501 /errors/index.php?errorcode=501
+ErrorDocument 502 /errors/index.php?errorcode=502
+ErrorDocument 503 /errors/index.php?errorcode=503
+ErrorDocument 504 /errors/index.php?errorcode=504
+ErrorDocument 505 /errors/index.php?errorcode=505
+
+AuthType Basic
+AuthName "s"
+AuthUserFile P:\XAMPP\htdocs\sys\.htpasswd 
+Require valid-user
+
